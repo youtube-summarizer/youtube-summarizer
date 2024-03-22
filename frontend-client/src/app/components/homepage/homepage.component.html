@@ -1,0 +1,10 @@
+<div>
+  <h1>{{ title }}</h1>
+  <h2>{{ "Titlte" | translate }}</h2>
+</div>
+
+<div *ngFor="let video of videos">
+  <div>{{ video.title }}</div>
+  <div>{{ video.uploadedDate }}</div>
+  <div>{{ video.youtubeVideoId }}</div>
+</div>
